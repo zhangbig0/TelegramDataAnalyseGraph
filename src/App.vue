@@ -4,6 +4,8 @@
     <router-link to="/about">About</router-link>|
     <router-link to="/Echarts">Echarts</router-link>|
     <router-link to="/CityPointEchart">Echarts</router-link>|
+    <router-link to="/TeleportInCityEchart">Echarts</router-link>|
+
   </div>
   <router-view/>
 </template>

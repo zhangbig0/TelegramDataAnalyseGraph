@@ -2,6 +2,8 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import Echarts from '../components/Echarts.vue'
 import CityPointEchart from '../components/CityPointEchart'
+import TeleportInCityEchart from '../components/TeleportInCityEchart'
+import TeleportInSingleCityEchart from '../components/TeleportInSingleCityEchart'
 
 const routes = [
   {
@@ -26,6 +28,16 @@ const routes = [
     path: '/CityPointEchart',
     name: 'CityPointEchart',
     component: CityPointEchart
+  },
+  {
+    path: '/TeleportInCityEchart',
+    name: 'TeleportInCityEchart',
+    component: TeleportInCityEchart
+  },
+  {
+    path: '/TeleportInSingleCityEchart',
+    name: 'TeleportInSingleCityEchart',
+    component: TeleportInSingleCityEchart
   },
 ]
 
